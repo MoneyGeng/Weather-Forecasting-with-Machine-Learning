@@ -22,7 +22,7 @@ The data used was download from the Government of Canada Climate Weather Data. T
   Run the SQL-ETL.ipynb to concatenate the three different csv files together.     Once the file has been concatenated, the file will now group and average ou       the mean temperature by year and month. 
 
 # Load 
-Running the SQL-ETL.ipynb file, the final dataset that is created is the  average_df dataframe. Using the average_df dataframe you can now run the machine learning module ARIMA to forcaste future weather for the city of Toronto based on historical dataset from 1840 - 2014. 
+Running the SQL-ETL.ipynb file, the final dataset that is created is the  average_df dataframe. Using the average_df dataframe you can now run the machine learning module SARIMA to forcaste future weather for the city of Toronto based on historical dataset from 1840 - 2014. 
 
  
   
