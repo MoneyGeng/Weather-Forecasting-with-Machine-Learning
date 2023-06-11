@@ -5,7 +5,7 @@ Group Members: Ayokunle Oluwole, Tina Saravi, Haoyue Lin, and John Geng
 
 # Dataset 
 
-<img width="1194" alt="pic 1" src="https://github.com/MoneyGeng/Weather-Forecasting-with-Machine-Learning/assets/119383340/2febb64d-eb70-48da-8ea0-b2e1e40e5859">![image](https://github.com/MoneyGeng/Weather-Forecasting-with-Machine-Learning/assets/119383340/29a8c0ff-6297-459f-9820-6d880118133f)
+<img width="1194" alt="pic 1" src="https://github.com/MoneyGeng/Weather-Forecasting-with-Machine-Learning/assets/119383340/2febb64d-eb70-48da-8ea0-b2e1e40e5859">
 
 
 The data used was download from the Government of Canada Climate Weather Data. Three different weather station in toronto were picked, Billy Bishop Airport, Buttonville Airport, and Toronto Pearson Airport. 
@@ -23,21 +23,21 @@ The data used was download from the Government of Canada Climate Weather Data. T
 
 
 
-<img width="1014" alt="pic 2" src="https://github.com/MoneyGeng/Weather-Forecasting-with-Machine-Learning/assets/119383340/ec156bc8-c385-4a0f-bdc2-cbcde8ca5322">![image](https://github.com/MoneyGeng/Weather-Forecasting-with-Machine-Learning/assets/119383340/f243a824-700d-433b-9402-ad9635a8e2d5)
+<img width="1014" alt="pic 2" src="https://github.com/MoneyGeng/Weather-Forecasting-with-Machine-Learning/assets/119383340/ec156bc8-c385-4a0f-bdc2-cbcde8ca5322">
 
 
-<img width="1011" alt="pic 3" src="https://github.com/MoneyGeng/Weather-Forecasting-with-Machine-Learning/assets/119383340/5cf3bba8-1200-4ee7-ba5d-ed3efc444331">![image](https://github.com/MoneyGeng/Weather-Forecasting-with-Machine-Learning/assets/119383340/b4af9b7d-5d2a-480f-9af3-13d828493c55)
+<img width="1011" alt="pic 3" src="https://github.com/MoneyGeng/Weather-Forecasting-with-Machine-Learning/assets/119383340/5cf3bba8-1200-4ee7-ba5d-ed3efc444331">
 
 
 
-<img width="521" alt="pic 4 " src="https://github.com/MoneyGeng/Weather-Forecasting-with-Machine-Learning/assets/119383340/3ad354bf-b49f-4994-a8b8-c024d0da7338">![image](https://github.com/MoneyGeng/Weather-Forecasting-with-Machine-Learning/assets/119383340/93e28624-13c9-4174-a0c7-fc797a76b911)
+<img width="521" alt="pic 4 " src="https://github.com/MoneyGeng/Weather-Forecasting-with-Machine-Learning/assets/119383340/3ad354bf-b49f-4994-a8b8-c024d0da7338">
 
 
 
 
 # Transformation 
 
-<img width="877" alt="pic 5" src="https://github.com/MoneyGeng/Weather-Forecasting-with-Machine-Learning/assets/119383340/90c004d9-8d7b-4eaf-8b71-03cff7765c30">![image](https://github.com/MoneyGeng/Weather-Forecasting-with-Machine-Learning/assets/119383340/32ef42b6-c8f5-470e-b3f8-074a5615fcc3)
+<img width="877" alt="pic 5" src="https://github.com/MoneyGeng/Weather-Forecasting-with-Machine-Learning/assets/119383340/90c004d9-8d7b-4eaf-8b71-03cff7765c30">
 
 
 
@@ -55,9 +55,8 @@ Running the SQL-ETL.ipynb file, the final dataset that is created is the  averag
 
 
 
+
 <img width="760" alt="pic 7 " src="https://github.com/MoneyGeng/Weather-Forecasting-with-Machine-Learning/assets/119383340/91ad015f-114f-4c18-8f19-8b80379e1407">
-
-
 
 
 
@@ -73,10 +72,7 @@ Running the SQL-ETL.ipynb file, the final dataset that is created is the  averag
 
 
 
-
-
 <img width="806" alt="pic 11" src="https://github.com/MoneyGeng/Weather-Forecasting-with-Machine-Learning/assets/119383340/4591ea7b-9a3f-49d2-bccd-ce949e38bca5">
-
 
 
 <img width="1127" alt="pic 12" src="https://github.com/MoneyGeng/Weather-Forecasting-with-Machine-Learning/assets/119383340/f35cdb5b-ed30-40b7-a4d8-7a1e614d0dcc">
@@ -99,11 +95,8 @@ Running the SQL-ETL.ipynb file, the final dataset that is created is the  averag
 <img width="808" alt="pic 17" src="https://github.com/MoneyGeng/Weather-Forecasting-with-Machine-Learning/assets/119383340/31aeb1e0-0fca-45e2-b691-1cb456458cf0">
 
 
-
 <img width="1003" alt="pic 18" src="https://github.com/MoneyGeng/Weather-Forecasting-with-Machine-Learning/assets/119383340/659c0718-56ff-4121-8bc9-ab7fbeecc4a8">
 
 
 
-<img width="1357" alt="pic 19" src="https://github.com/MoneyGeng/Weather-Forecasting-with-Machine-Learning/assets/119383340/0a9f4bcd-1f1b-44d9-95c9-51a54981f191">
-![image](https://github.com/MoneyGeng/Weather-Forecasting-with-Machine-Learning/assets/119383340/98de9403-0636-4998-9160-c4396108c9dd)
-
+<img width="1357" alt="pic 19" src="https://github.com/MoneyGeng/Weather-Forecasting-with-Machine-Learning/assets/119383340/0a9f4bcd-1f1b-44d9-95c9-51a54981f191"> 
