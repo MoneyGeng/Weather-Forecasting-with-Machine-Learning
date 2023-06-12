@@ -17,7 +17,7 @@ The data used was download from the Government of Canada Climate Weather Data. T
   
   Download the data from Government of Canada Climate Weather Data filtering by     monthly data. Billy Bishop Airport Monthly Data (1840-2006), Buttonville         Airport Monthly Data (1986-2015), and Toronto Lester B. Pearson Int'l Airport     Monthly Data (1937-2013). 
   
-  Run each airports extraction file; billyairport_extraction.ipynb,                 buttonvilleairport_extraction.ipynb, and pearsonairport_extraction.ipynb. These   will create a CVS file called cleaned_billy.csv, cleaned_buttonville, and         cleaned_pearson.csv. 
+  Run each airports extraction file; billyairport_extraction.ipynb, buttonvilleairport_extraction.ipynb, and pearsonairport_extraction.ipynb. These   will create a CVS file called cleaned_billy.csv, cleaned_buttonville, and       cleaned_pearson.csv. 
   
   Uploaded these three cvs files to Railway to host a SQL sever for                 transformation of dataset. 
 
