@@ -17,6 +17,10 @@ The data used was download from the Government of Canada Climate Weather Data. T
   
   Download the data from Government of Canada Climate Weather Data filtering by     monthly data. Billy Bishop Airport Monthly Data (1840-2006), Buttonville         Airport Monthly Data (1986-2015), and Toronto Lester B. Pearson Int'l Airport     Monthly Data (1937-2013). 
   
+ 
+PySpark, is a powerful framework that was used to process and clean each CSV data. The first step was to start a SparkSession and load each CSV file for cleaning. The loaded data was then examine to understand its structure, columns, and data types before we needed to clean. Next, the data from the different airport extractions was organized into each DataFrames, to allow for an additional clean up. 
+ 
+  
   Run each airports extraction file; billyairport_extraction.ipynb, buttonvilleairport_extraction.ipynb, and pearsonairport_extraction.ipynb. These   will create a CVS file called cleaned_billy.csv, cleaned_buttonville, and       cleaned_pearson.csv. 
   
   Uploaded these three cvs files to Railway to host a SQL sever for                 transformation of dataset. 
