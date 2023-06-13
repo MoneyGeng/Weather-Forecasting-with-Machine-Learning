@@ -10,7 +10,7 @@ The data used was download from the Government of Canada Climate Weather Data. T
 # ETL 
 
 ## Extraction 
-  Download the data from Government of Canada Climate Weather Data filtering by monthly data. Billy Bishop Airport Monthly Data (1840-2006), Buttonville Airport Monthly Data (1986-2015), and Toronto Lester B. Pearson Int'l Airport     Monthly Data (1937-2013). 
+Download the data from Government of Canada Climate Weather Data filtering by monthly data. Billy Bishop Airport Monthly Data (1840-2006), Buttonville Airport Monthly Data (1986-2015), and Toronto Lester B. Pearson Int'l Airport Monthly Data (1937-2013). 
  
 PySpark, is a powerful framework that was used to process and clean each CSV data. The first step was to start a SparkSession and load each CSV file for cleaning. After, we needed to examine the loaded data to understand its structure, columns, and data types before fitting each airports extraction file into a DataFrame in order to continue cleaning the data. 
  
@@ -25,9 +25,9 @@ Run the SQL-ETL.ipynb to concatenate the three different csv files together. Onc
 Running the SQL-ETL.ipynb file, the final dataset that is created is the  average_df dataframe. Using the average_df dataframe you can now run the machine learning module SARIMA to forecast future weather for the city of Toronto based on historical dataset from 1840 - 2014. For the purpose of accuracy, the dataset used for forecasting is narrowed down to 1900-2013.
 
 # Weather Forecasting with SARIMA
-The SARIMA model, short for Seasonal Autoregressive Integrated Moving Average, is an advanxed variation of the ARIMA model that has gain widespread recognition in time series analysis. Developed a an extension of the ARMA model from the 1970s, SARIMA has proven to be highly effective in modeling and forecasting time series data with both non-seasonal and peasonal petterns.
+The SARIMA model, short for Seasonal Autoregressive Integrated Moving Average, is an advanced variation of the ARIMA model that has gain widespread recognition in time series analysis. Developed  an extension of the ARMA model from the 1970s, SARIMA has proven to be highly effective in modeling and forecasting time series data with both non-seasonal and peasonal petterns.
 
-The ARIMA model, which captures relationships between obsercations at different time lags and moving average components, laid the foundation for SARIMA's success. By incorporating seasonal components into the ARIMA framework, SARIMA enhances its ability to accurately represent and predict time series data exhibiting recurring patterns at fixed intervals. This is particulary valuable in fields where data display seasonality, such as in monthly weather patterns.
+The ARIMA model, which captures relationships between observations at different time lags and moving average components, laid the foundation for SARIMA's success. By incorporating seasonal components into the ARIMA framework, SARIMA enhances its ability to accurately represent and predict time series data exhibiting recurring patterns at fixed intervals. This is particulary valuable in fields where data display seasonality, such as in monthly weather patterns.
 
 ## Parameter Selection
 ### Grid Search
@@ -63,7 +63,7 @@ The relatively low evaluation metrics validates the high accuracy of the SARIMA 
 # Forescasting in the future
 In this project, a remote postgreSQL server was hosted through Railway.app to facilitate efficient data management. The data was consolidated and prepared for analysis using pandas' comprehensive data manipulation capabilities.
 
-The seasonal SARIMA (Seasonal Autoregressive Integrated Moving Average) model was employed to forecast weather patterns. This advanced model incorporated historical data, seasonal components, and underlying patterns to generate accurate predictions for time series data. Thorough model diagnostics were conducted to assess the SARIMA model's ability to capture the underlying patterns in the weather data.
+The seasonal SARIMA (Seasonal Autoregressive Integrated Moving Average) model was employed to forecast weather patterns. This advanced model incorporated historical data, seasonal components, and underlying patterns to generate accurate predictions for time series data. Through model diagnostics were conducted to assess the SARIMA model's ability to capture the underlying patterns in the weather data.
 
 The reliability of the forecasts was further validated through evaluation metrics, including Mean Squared Error (MSE) and Root Mean Squared Error (RMSE), which exhibited low values. These metrics served as indicators of the accuracy and dependability of the forecasts.
 
