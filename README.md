@@ -23,7 +23,7 @@ PySpark, is a powerful framework that was used to process and clean each CSV dat
   
   Run each airports extraction file; billyairport_extraction.ipynb, buttonvilleairport_extraction.ipynb, and pearsonairport_extraction.ipynb. These   will create a CVS file called cleaned_billy.csv, cleaned_buttonville, and       cleaned_pearson.csv. 
   
-  Uploaded these three cvs files to Railway to host a SQL sever for                 transformation of dataset. 
+  Uploaded these three cvs files to Railway to host a SQL server for                 transformation of dataset. 
 
 
 
@@ -39,10 +39,10 @@ PySpark, is a powerful framework that was used to process and clean each CSV dat
 
 
 
-  Run the SQL-ETL.ipynb to concatenate the three different csv files together.     Once the file has been concatenated, the file will now group and average ou       the mean temperature by year and month. 
+  Run the SQL-ETL.ipynb to concatenate the three different csv files together.     Once the file has been concatenated, the file will now group and average out       the mean temperature by year and month. 
 
 # Load 
-Running the SQL-ETL.ipynb file, the final dataset that is created is the  average_df dataframe. Using the average_df dataframe you can now run the machine learning module SARIMA to forcaste future weather for the city of Toronto based on historical dataset from 1840 - 2014. 
+Running the SQL-ETL.ipynb file, the final dataset that is created is the  average_df dataframe. Using the average_df dataframe you can now run the machine learning module SARIMA to forecast future weather for the city of Toronto based on historical dataset from 1840 - 2014. 
 
  
 
